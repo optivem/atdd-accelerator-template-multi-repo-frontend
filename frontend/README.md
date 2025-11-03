@@ -15,17 +15,36 @@ This is the frontend UI service for the ATDD Accelerator Template, built with Re
 - `/` - Home page with welcome message
 - `/todos` - Todo Fetcher page
 
+## Instructions
+
+Open up the 'frontend' folder
+
+```shell
+cd frontend
+```
+
+Check that you have Powershell 7
+
+```shell
+$PSVersionTable.PSVersion
+```
+
+Check that you have Node.js 22 installed
+
+```shell
+node -v
+```
 ## Running Locally
 
 First, install dependencies:
 
-```bash
+```shell
 npm install
 ```
 
 Then start the development server:
 
-```bash
+```shell
 npm start
 ```
 
@@ -35,7 +54,7 @@ The app will open at http://localhost:8080.
 
 ## Building for Production
 
-```bash
+```shell
 npm run build
 ```
 
@@ -45,13 +64,13 @@ This creates an optimized production build in the `build` folder.
 
 Build the Docker image:
 
-```bash
+```shell
 docker build -t frontend .
 ```
 
 Run the container:
 
-```bash
+```shell
 docker run -p 8080:8080 frontend
 ```
 
