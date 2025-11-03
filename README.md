@@ -4,7 +4,7 @@
 
 ## Root Repository
 
-[ATDD Accelerator Template - Multi Repository](https://github.com/optivem/atdd-accelerator-template-multi-repo)
+- [ATDD Accelerator Template - Multi Repository](https://github.com/optivem/atdd-accelerator-template-multi-repo)
 
 ## License
 
