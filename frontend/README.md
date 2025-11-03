@@ -34,6 +34,7 @@ Check that you have Node.js 22 installed
 ```shell
 node -v
 ```
+
 ## Running Locally
 
 First, install dependencies:
